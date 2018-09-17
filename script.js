@@ -27,7 +27,12 @@ function startGame() {
 }
 
 function turnClick(square) {
+	if(typeof origBoard [square.target.id = 'number') {
+		
+	}
   turn(square.target.id, huPlayer);
+  
+  
 }
 
 function turn(squareId, player) {
@@ -58,3 +63,4 @@ function gameOver(gameWon) {
     	cells[i].removeEventListener('click', turnClick, false)
     }
 }
+    
