@@ -28,9 +28,9 @@ function startGame() {
 
 function turnClick(square) {
 	if(typeof origBoard [square.target.id = 'number') {
-		
+		turn(square.target.id, huPlayer);
 	}
-  turn(square.target.id, huPlayer);
+  
   
   
 }
